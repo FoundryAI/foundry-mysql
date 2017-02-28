@@ -1,5 +1,5 @@
 {
-  "name": "hapiest-mysql",
+  "name": "foundry-mysql",
   "version": "0.0.38",
   "description": "A wrapper around mysql that provides a very descriptive way of running queries.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonathan-fulton/hapiest-mysql.git"
+    "url": "git+https://github.com/FoundryAI/foundry-mysql.git"
   },
   "keywords": [
     "hapi.js",
@@ -18,14 +18,14 @@
   "author": "Jonathan Fulton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jonathan-fulton/hapiest-mysql/issues"
+    "url": "https://github.com/FoundryAI/foundry-mysql/issues"
   },
-  "homepage": "https://github.com/jonathan-fulton/hapiest-mysql#readme",
+  "homepage": "https://github.com/FoundryAI/foundry-mysql#readme",
   "dependencies": {
     "bluebird": "3.4.7",
     "chance": "1.0.4",
     "config": "1.24.0",
-    "hapiest-vo": "0.0.6",
+    "foundry-vo": "0.0.6",
     "joi": "10.2.0",
     "lodash": "4.17.4",
     "mysql": "2.13.0",
@@ -35,7 +35,7 @@
     "async": "2.1.4",
     "config-uncached": "1.0.2",
     "faker": "3.1.0",
-    "hapiest-logger": "0.1.1",
+    "foundry-logger": "0.1.1",
     "intercept-stdout": "0.1.2",
     "mocha": "3.2.0",
     "moment": "2.17.1",
