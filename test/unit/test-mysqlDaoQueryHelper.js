@@ -3,7 +3,7 @@
 const Should = require('should');
 const Mysql = require('mysql');
 const Squel = require('squel');
-const VO = require('hapiest-vo');
+const VO = require('foundry-vo');
 const Moment = require('moment');
 
 const MysqlDaoQueryHelper = require('../../lib/mysqlDaoQueryHelper');

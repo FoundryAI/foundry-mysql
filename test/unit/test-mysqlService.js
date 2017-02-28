@@ -12,8 +12,8 @@ const MysqlServiceFactory = require('../../lib/mysqlServiceFactory');
 const MysqlService = require('../../lib/mysqlService');
 
 const MysqlModificationResult = require('../../lib/mysqlModificationResult');
-const LoggerFactory = require('hapiest-logger/lib/loggerFactory');
-const LoggerConfigFactory = require('hapiest-logger/lib/loggerConfigFactory');
+const LoggerFactory = require('foundry-logger/lib/loggerFactory');
+const LoggerConfigFactory = require('foundry-logger/lib/loggerConfigFactory');
 const loggerConfig = LoggerConfigFactory.createFromJsObj({enabled: true, consoleTransport: {enabled:true, level: 'info'}});
 const logger = LoggerFactory.createLogger(loggerConfig);
 

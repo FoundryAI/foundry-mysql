@@ -2,7 +2,7 @@
 
 const Should = require('should');
 const _ = require('lodash');
-const VO = require('hapiest-vo');
+const VO = require('foundry-vo');
 const Sinon = require('sinon');
 const Faker = require('faker');
 
