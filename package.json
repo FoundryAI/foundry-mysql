@@ -1,5 +1,5 @@
 {
-  "name": "foundry-mysql",
+  "name": "@foundry-ai/foundry-mysql",
   "version": "0.0.38",
   "description": "A wrapper around mysql that provides a very descriptive way of running queries.",
   "main": "index.js",
@@ -25,7 +25,7 @@
     "bluebird": "3.4.7",
     "chance": "1.0.4",
     "config": "1.24.0",
-    "foundry-vo": "0.0.6",
+    "@foundry-ai/foundry-vo": "0.0.6",
     "joi": "10.2.0",
     "lodash": "4.17.4",
     "mysql": "2.13.0",
@@ -35,12 +35,15 @@
     "async": "2.1.4",
     "config-uncached": "1.0.2",
     "faker": "3.1.0",
-    "foundry-logger": "0.1.1",
+    "hapiest-logger": "0.1.1",
     "intercept-stdout": "0.1.2",
     "mocha": "3.2.0",
     "moment": "2.17.1",
     "path": "0.12.7",
     "should": "11.2.0",
     "sinon": "1.17.7"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
